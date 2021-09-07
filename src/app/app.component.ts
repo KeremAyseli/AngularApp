@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css','../assets/css/styles.css']
+  
 })
+
 export class AppComponent {
-  title = 'my-app';
+  title = 'Tour of Heroes';
+  deneme="deneme";
 }
